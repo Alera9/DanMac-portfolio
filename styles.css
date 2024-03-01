@@ -1,0 +1,48 @@
+:root{
+    --color_texto_navbar: rgb(255, 248, 227);
+    --color_texto_boton: #4d3e6b;
+    --color_elementos_fieldset: #4d3e6b;
+    --color_boton: rgb(225, 175, 209);
+    --color_background: #FFE6E6;
+    --color_navBar: rgb(116, 105, 182);
+}
+.bg{
+    background-color: var(--color_background);
+}
+a.navbar-brand{
+    color: var(--color_texto_navbar);
+}
+#nav-bar{
+    background-color: var(--color_navBar);
+}
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button.btn{
+    background-color: var(--color_boton);
+    color: var(--color_texto_boton);
+    box-shadow: 3px 3px 3px #fdd8d8;
+    position: relative;
+    top: 1em; left: 40%;
+}
+button.btn:hover{
+    background-color: var(--color_boton);
+    color: var(--color_texto_boton);
+    transform: scale(1.1, 1);
+    box-shadow: 2px 5px 5px var(--color_elementos_fieldset);
+}
+#saludo-carta{
+    position: relative;
+    top: 2em; left: 13%;
+}
+div.card{
+    background-color: var(--color_navBar);
+    color: var(--color_texto_navbar);
+}
+img.card-img-top{
+    width: 10rem;
+    align-self: center;
+}
+
